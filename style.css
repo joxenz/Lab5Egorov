@@ -1,0 +1,162 @@
+body {
+    background: #2b3d50;
+}
+
+h1 {
+    font-size: 32px;
+    color: #728496;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #76889b;
+    margin: 8px;
+}
+
+p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin: 12px;
+}
+
+a {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+ul, ol {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.content {
+    display: flex;
+    margin: 3%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    background: #344a61;
+    margin: 60px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.content-right {
+    display: flex;
+    background: #344a61;
+    margin: 60px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.photo {
+    width: 450px;
+    border-radius: 30px;
+}
+
+.photo_horizontal {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    text-align: right;
+    background: rgba(7, 2, 49, 0.726);
+    border-radius: 5px;  
+    padding: 20px;  
+    margin: 20px;  
+}
+
+.container {
+    background: #523258;
+    text-align: center;
+}
+
+.container-2{
+    background: #344a61;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 400px; 
+}
+
+.container-3{
+    background: #056e58;
+    border: 2px solid #007BFF;
+    flex-wrap: wrap;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-position {
+    background: #ad8d00;
+    position: relative;  
+    border: 2px solid rgb(0, 0, 0);  
+    height: 500px;  
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: #231625;
+    margin: 0 auto;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background: #598385;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background: #76889b; 
+    margin-bottom: 40px;
+}
+
+.photo-center {
+    text-align: center;
+    width: 200px;
+}
+
+.fix-image {
+    width: 100px;
+    height: 100px;
+    position: fixed;  
+    bottom: 10px;
+    right: 10px;
+}
+
+.red {
+    border: 2px solid #ff0000;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+}
+
+.blue {
+    border: 2px solid #2a00fb;
+    width: 100px;
+    height: 100px;
+    left: 170px;
+    top: 170px;
+}
+
+.green {
+    border: 2px solid #00f034;
+    width: 100px;
+    height: 100px;
+    left: 240px;
+    top: 240px;
+}
+
+.square {
+    position: absolute;
+}
